@@ -1,0 +1,12 @@
+# Virutalenv stuff
+/bin
+/include
+/lib
+.Python
+pip-selfcheck.json
+
+# Config
+config.json
+
+# Remove cache
+/pkshoes/__pycache__
