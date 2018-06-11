@@ -18,4 +18,18 @@ pip install -r requirements.txt
 
 In order to use the scripts/modules of this repo, activate the aforementioned virtualenv first.
 
+4. create `config.json` file in the root directory. This file should have the following structure:
+```
+{
+  "SECRET_KEY": "my secret key",
+  "DB": {
+      "NAME": "database name",
+      "USER": "user name",
+      "PASSWORD": "user password",
+      "HOST": "database host",
+      "PORT": "database port"
+  }
+}
+```
+
 ## Development
